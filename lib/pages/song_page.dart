@@ -8,7 +8,7 @@ class SongPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
-        title: Text('Song page'),
+        title: const Text('Song page'),
       ),
       body:Column(
         children: [
@@ -18,7 +18,7 @@ class SongPage extends StatelessWidget {
                 onPressed: (){
 
                 },
-               icon: Icon(Icons.arrow_back))
+               icon: const Icon(Icons.arrow_back))
             ],
           )
         ],

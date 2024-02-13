@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
-        title: const Text("M O O O S I C"),
+        title: const Text("M Y T U N E S"),
         actions: [
           IconButton(onPressed: (){
             Navigator.of(context).push(MaterialPageRoute(

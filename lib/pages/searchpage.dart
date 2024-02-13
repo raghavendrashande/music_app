@@ -8,7 +8,7 @@ String query = "";
 
 // ignore: must_be_immutable
 class Searchpage extends StatefulWidget {
-   Searchpage({super.key});
+   const Searchpage({super.key});
 
   @override
   State<Searchpage> createState() => _MainAppState();

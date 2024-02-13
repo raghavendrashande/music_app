@@ -1,5 +1,4 @@
 import 'package:audioplayers/audioplayers.dart';
-import 'package:dsa_mini_project/pages/music_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -75,7 +74,6 @@ class Playlist {
           onTap: (){
             player.stop();
             playing=current;  
-            playpause=!playpause;
             player.play(UrlSource(playing!.spotifylink));
           },
           child: ListTile(
